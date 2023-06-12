@@ -58,7 +58,7 @@ if ($result) {
     }
 }
 else {
-    echo "Aucun tableau n'a été trouvé pour votre situation monsieur Pablo Escobar !";
+    echo "Aucun tableau n'a été trouvé pour votre situation !";
 }
 
 
