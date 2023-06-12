@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    background-color: black;
+    transition: 0.5s;
+}
+
+header a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+header {
+    display: flex;
+    background-color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+h1{
+    font-size: 40px;
+}
+
+
+
+section {
+    margin-top: 100px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    display: grid;
+}
+main:not(main.client) {
+    grid-template-columns: 50% 50%;
+}
+.client {
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+}
+
+input {
+    margin: 10px;
+    max-width: 200px;
+    padding: 20px 10px;
+}
+
+tr {
+    background: lightgreen;
+}
+.orange {
+    background: orange;
+}
+.joursaute {
+    background: red;
+    color: #FFFFFF;
+}
+
+/* canvas {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+} */
+
+.orange.joursaute>.debut, .orange.joursaute>.fin {
+    background: orange;
+}
